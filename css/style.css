@@ -23,8 +23,17 @@
 }
 body {
     background-image: url("../images/background-image.jpg");
+    background-position: 320px 1px;
+    background-attachment: fixed;
+    background-size: 1150px 600px;
+    background-repeat: no-repeat;
    
-} 
+
+
+   
+
+}
+
  
   header{
       display: flex;
