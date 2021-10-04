@@ -8,46 +8,36 @@
 
  }
 
- a{
+ a {
     text-decoration: none;
-}
+ }
 
  img{
      max-width: 100%;
      width: 120px;
  }
  .wrap{
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+    background: url("../images/background-image.jpg") no-repeat center center/ cover;
+    padding-bottom: 150px;
 }
-body {
-    background-image: url("../images/background-image.jpg");
-    background-position: 320px 1px;
-    background-attachment: fixed;
-    background-size: 1150px 600px;
-    background-repeat: no-repeat;
-   
-
-
-   
-
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
 }
-
- 
-  header{
-      display: flex;
-      justify-content: space-around;
+  header {
       padding-top: 20px;
-     margin-bottom: 150px;
+      margin-bottom: 150px;
+    }
+    header .container {  
+        display: flex;
+        align-items: center;
      }
-
  nav{
         margin-left: auto ;
     }
 
 ul{
-   
     margin: 0;
     padding: 0;
    display: flex;
@@ -55,7 +45,7 @@ ul{
 
 li{
     list-style: none;
-    padding: 0 20px;
+    padding: 0px 35px;
    
 }
 h1{
@@ -69,10 +59,15 @@ select,button{
     font-size: 14px;
     padding-left: 8px;
     margin-right: 12px;
+    border: 0;
+        box-shadow: 0 0 7px 0 rgb(0 0 0 / 10%);
+    border-radius: 3px;
+}
+select {
+    color: #9b9b9b;
 }
 
 button {
-    background-color: #64bc598a;
-    border: 1px solid black;
+    background-color: #6592dc;
     color: white;
 }
