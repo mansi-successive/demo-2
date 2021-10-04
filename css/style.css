@@ -11,7 +11,6 @@
  a{
     text-decoration: none;
 }
-
  img{
      max-width: 100%;
      width: 120px;
@@ -19,18 +18,13 @@
  .wrap{
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
-}
-body {
+    height: 582px;
+    margin: auto auto;
     background-image: url("../images/background-image.jpg");
-    background-position: 320px 1px;
-    background-attachment: fixed;
-    background-size: 1150px 600px;
     background-repeat: no-repeat;
-   
-
-
-   
+    background-size:cover;
+    background-position: center;
+    
 
 }
 
@@ -38,16 +32,19 @@ body {
   header{
       display: flex;
       justify-content: space-around;
-      padding-top: 20px;
+      padding-top: 40px;
      margin-bottom: 150px;
+     margin-top: 40px;
+     background-size: cover;
+    
+
      }
 
  nav{
-        margin-left: auto ;
+     margin-left: auto ;
     }
 
 ul{
-   
     margin: 0;
     padding: 0;
    display: flex;
@@ -75,4 +72,7 @@ button {
     background-color: #64bc598a;
     border: 1px solid black;
     color: white;
+}
+.section{
+    margin-left: 109px;
 }
